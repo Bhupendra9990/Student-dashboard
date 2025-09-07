@@ -84,7 +84,7 @@ if uploaded_file is not None:
         st.subheader("🔮 Predict a New Student Result")
         input_data = []
         
-        features = df.columns
+        
 for col in features:
     if df[col].dtype == 'object':
         options = df[col].unique().tolist()
